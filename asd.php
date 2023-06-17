@@ -1,7 +1,5 @@
 <?php
 header('Content-Type: text/plain');
-
-// Dosyanın tarayıcıda açılmasını sağlama
 header('Content-Disposition: inline');
 
 $locX = isset($_GET['locX']) ? $_GET['locX'] : '';
